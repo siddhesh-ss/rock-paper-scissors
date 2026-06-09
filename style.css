@@ -1,0 +1,89 @@
+*{
+    font-family: "Black Ops One","sans-serif";
+}
+
+h1 {
+    background: black;
+    color: yellow;
+    text-align: center;
+    margin: 10px 150px 10px 150px;
+    border-radius: 9px;
+}
+
+.arena {
+    display: flex;
+    margin: 4px 150px 4px 150px;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+    height: 210px;
+}
+
+.player {
+    background: rgb(71, 68, 68);
+    color: white;
+    width: 250px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.dialogueBox {
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 42px 150px 4px 150px;
+    height: 50px;
+}
+
+.dialogue {
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 0;
+}
+
+.options {
+    margin: 4px 150px 4px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+.options :hover {
+    cursor: pointer;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    background: darkgray;
+}
+.btn-img {
+    max-height: 100px;
+    object-fit: cover;
+}
+
+
+.endGame {
+    display: flex;
+    justify-content: center;
+    margin: 14px 150px 4px 150px;
+    padding-top: 10px;
+    height: 20px;
+}
+
+#playAgain {
+    width: 150px;
+    height: 55px;
+}
+
+#playAgain :hover {
+    cursor: pointer;
+}

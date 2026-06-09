@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+</style>
 </head>
 <body>
-    <h1>Open TERMINAL to play this game</h1>
-    <h3>Firstly enter your user-name and then your choices among [rock, paper, scissor]</h3>
-    <p>Don't worry the values aren't case sensitive</p>
-    <p>*maybe the first game would be little glitchy to console but please try game again...</p>
+    <h1>ROCK - PAPER - SCISSOR</h1>
+    <div class="arena">
+        <div class="player you">
+            <h3 class="">YOU</h3>
+            <p class="score" id="youScore">score : 0</p>
+            <div id="youChoice"></div>
+        </div>
+        <div class="player comp">
+            <h3>COMPUTER</h3>
+            <p class="score" id="compScore">score : 0</p>
+            <div id="compChoice"></div>
+        </div>
+    </div>
+
+    <div class="dialogueBox">
+        <p id="dialogue"></p>
+    </div>
+
+    <div class="options">
+        <button class="btn" id="rock">
+            <img class="btn-img" src="images/rock.png" alt="STONE">
+        </button>
+        <button class="btn" id="paper"><img class="btn-img" src="images/paper.png" alt="PAPER"></button>
+        <button class="btn" id="scissor"><img class="btn-img" src="images/scissor.png" alt="SCISSOR"></button>
+    </div>
     
+    <div class="endGame">
+        <button id="playAgain">PLAY AGAIN</button>
+    </div>
     <script src="script.js">
 
     </script>
