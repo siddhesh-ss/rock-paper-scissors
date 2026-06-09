@@ -71,12 +71,12 @@ function endGame() {
     playAgain.style.display = "block";
 }
 
-function playGame() {
-    for(let i = 0 ; i < 5 ; i++) {
-        let result = playRound();
-        console.log(result,"\n","Your score : ", humanScore, "Computer score : ", computerScore);
-    }
-}
+// function playGame() {
+//     for(let i = 0 ; i < 5 ; i++) {
+//         let result = playRound();
+//         console.log(result,"\n","Your score : ", humanScore, "Computer score : ", computerScore);
+//     }
+// }
 
 function reset() {
     humanScore = 0;
